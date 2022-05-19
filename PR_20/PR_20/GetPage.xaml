@@ -5,10 +5,10 @@
 
     <StackLayout Margin="20">
         <Label Text="Запрос Get" FontSize="Medium" HorizontalTextAlignment="Center" TextColor="Black"/>
-        <Button Text="Отправить запрос" Clicked="OnButtonClicked"/>
+        <Button Text="Отправить запрос" Clicked="OnButtonClicked" BackgroundColor="Green" TextColor="White"/>
         <Label x:Name="Label1" FontSize="Medium" TextColor="Black"/>
-        <Button Clicked="OnPutButtonClicked" Text="Запрос Put"/>
-        <Button Clicked="OnPostButtonClicked" Text="Запрос Post"/>
+        <Button Clicked="OnPutButtonClicked" Text="Запрос Put" BackgroundColor="Green" TextColor="White"/>
+        <Button Clicked="OnPostButtonClicked" Text="Запрос Post" BackgroundColor="Green" TextColor="White"/>
     </StackLayout>
 
 </ContentPage>
