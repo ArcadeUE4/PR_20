@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PR_20.PutPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Запрос Put" FontSize="Medium" HorizontalTextAlignment="Center" TextColor="Black"/>
+            <Button Text="Отправить запрос" Clicked="OnButtonClicked"/>
+            <Label x:Name="Label1" FontSize="Medium" TextColor="Black"/>
+            <Button Clicked="OnGetButtonClicked" Text="Запрос Get"/>
+            <Button Clicked="OnPostButtonClicked" Text="Запрос Post"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
